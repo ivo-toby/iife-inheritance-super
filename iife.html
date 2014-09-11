@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<script type="text/javascript" src="iife.js"></script>	
+	</head>
+
+	<script>
+		var foo = new exampleClass();
+		foo.publicInstanceMethod();
+		foo.somePublicMethod();
+
+		console.log("====");
+
+		var bar = new inheritedClass();
+		bar.publicInstanceMethod();
+		bar.somePublicMethod();
+
+		console.log("====");
+
+		var tex = new childOfChildClass();
+		tex.publicInstanceMethod();		
+		tex.somePublicMethod();
+
+		console.log("====");
+		var mob = new inheritedByUsingExtendFunction();
+		mob.publicInstanceMethod();		
+		mob.somePublicMethod();
+
+	</script>
+
+	<body>
+		
+	</body>
+</html>
